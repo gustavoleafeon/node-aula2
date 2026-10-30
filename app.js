@@ -15,4 +15,11 @@ app.get("/:nome", (requisicao, resposta) => {
   resposta.send(pet);
 });
 
+app.get("/:tutor", (requisicao, resposta) => {
+  const tutorInformado = requisicao.params.tutor.toLowerCase();
+  const pet = pets.find((infoPet) => infoPet.tutor === tutorInformado);
+
+  resposta.send(pet);
+});
+
 app.listen(port, () => console.log(`Servidor rodando na porta ${port}`));

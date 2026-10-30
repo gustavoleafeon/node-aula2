@@ -2,7 +2,7 @@ const pets = [
   {
     id: 1,
     nome: "alfredo",
-    tutor: "Willian da Silva",
+    tutor: "Willian",
     idade: 5,
     vacinado: true,
   },
@@ -10,7 +10,7 @@ const pets = [
   {
     id: 2,
     nome: "belinha",
-    tutor: "Ana Maria",
+    tutor: "Ana",
     idade: 8,
     vacinado: false,
   },
@@ -18,7 +18,7 @@ const pets = [
   {
     id: 3,
     nome: "rex",
-    tutor: "Joana Queiroz",
+    tutor: "Joana",
     idade: 2,
     vacinado: true,
   },
