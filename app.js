@@ -59,6 +59,7 @@ app.delete("/:nome", (req, res) => {
     res.status(404).send("Não existe pet informado");
     return;
   }
+
   const petRemovido = pets.splice(indicePetSelecionado, 1);
   res.status(200).send(petRemovido);
 });
